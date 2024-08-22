@@ -1,0 +1,20 @@
+anchor=top-right
+background-color=#1a1b26ff
+border-color=#c0caf5ff
+border-radius=0
+border-size=1
+text-color=#c0caf5
+default-timeout=5000
+font=IosevkaTerm Nerd Font Medium 12
+icons=1
+layer=top
+margin=20
+max-icon-size=48
+max-visible=10
+padding=12
+progress-color=source #414868ff
+
+[urgency=high]
+background-color=#ff899dff
+text-color=#1a1b26
+border-color=#ff8484ff
