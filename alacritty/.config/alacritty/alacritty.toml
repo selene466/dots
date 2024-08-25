@@ -46,14 +46,14 @@ foreground = "0xc0caf5"
 # magenta = "0xB48EAD"
 # cyan = "0x88C0D0"
 # white = "0xE5E9F0"
-black =   "0x15161E"
-red =     "0xf7768e"
-green =   "0x9ece6a"
-yellow =  "0xe0af68"
-blue =    "0x7aa2f7"
+black = "0x15161E"
+red = "0xf7768e"
+green = "0x9ece6a"
+yellow = "0xe0af68"
+blue = "0x7aa2f7"
 magenta = "0xbb9af7"
-cyan =    "0x7dcfff"
-white =   "0xa9b1d6"
+cyan = "0x7dcfff"
+white = "0xa9b1d6"
 
 [colors.bright]
 # black = "0x4C566A"
@@ -64,32 +64,32 @@ white =   "0xa9b1d6"
 # magenta = "0xB48EAD"
 # cyan = "0x8FBCBB"
 # white = "0xECEFF4"
-black =   "0x414868"
-red =     "0xf7768e"
-green =   "0x9ece6a"
-yellow =  "0xe0af68"
-blue =    "0x7aa2f7"
+black = "0x414868"
+red = "0xf7768e"
+green = "0x9ece6a"
+yellow = "0xe0af68"
+blue = "0x7aa2f7"
 magenta = "0xbb9af7"
-cyan =    "0x7dcfff"
-white =   "0xc0caf5"
+cyan = "0x7dcfff"
+white = "0xc0caf5"
 
 [font]
 size = 12
 
 [font.normal]
-family = "monospace"
+family = "CommitMono Nerd Font"
 style = "Regular"
 
 [font.bold]
-family = "monospace"
+family = "CommitMono Nerd Font"
 style = "Bold"
 
 [font.italic]
-family = "monospace"
+family = "CommitMono Nerd Font"
 style = "Italic"
 
 [font.bold_italic]
-family = "monospace"
+family = "CommitMono Nerd Font"
 style = "Bold Italic"
 
 [selection]

@@ -3,6 +3,9 @@ export TERM=alacritty
 export EDITOR=nvim
 export QT_QPA_PLATFORMTHEME="qt5ct"
 
+# PATH
+export PATH="$PATH:$HOME/.local/bin"
+
 # GNUPG
 export GPG_TTY=$(tty)
 gpg-connect-agent updatestartuptty /bye >/dev/null
