@@ -1,0 +1,18 @@
+[disk]
+command= echo "<span foreground='#8fbcbb' background='#2e3440' size='x-large'> </span><span background='#8fbcbb'> <span foreground='#2e3440' size='large'></span> <span foreground='#3b4252' size='small' rise='2pt'>/home</span> <span size='small' rise='2pt'>$(df -h | grep "/home$" | awk '{print $5}')</span>  </span><span background='#8fbcbb' foreground='#2e3440' size='x-large'></span>"
+markup=pango
+background=#8fbcbb
+color=#434c5e
+interval=600
+
+[date]
+command=echo "<span foreground='#81A1C1' size='large'></span> <span size='small' rise='2pt'>$(date +"%Y-%m-%d %a")</span>"; if [ $button ]; then orage -t; fi
+markup=pango
+interval=60
+
+[time]
+command=echo "<span foreground='#5e81ac' background='#2e3440' size='x-large'></span><span background='#5e81ac'> <span foreground='#2e3440' size='large'></span> <span size='small' rise='2pt'>$(date +"%H:%M:%S")</span> </span><span background='#5e81ac' foreground='#2e3440' size='x-large'></span>"
+markup=pango
+background=#5e81ac
+color=#D8DEE9
+interval=1
