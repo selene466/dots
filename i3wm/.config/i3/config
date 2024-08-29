@@ -10,7 +10,7 @@
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango:Terminus 12
 
 # border
 hide_edge_borders none
@@ -260,6 +260,7 @@ bar {
         # status_command i3status
         status_command i3blocks
         position top
+        font pango:Terminus 12
 }
 
 #######################################################################
