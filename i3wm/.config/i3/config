@@ -15,14 +15,15 @@ font pango:monospace 8
 # border
 hide_edge_borders none
 default_border pixel 0
-default_floating_border pixel 0
+default_floating_border pixel 1
 for_window [class="^.*"] border pixel 0
-for_window [class="Kitty"] border pixel 1
+for_window [class="kitty"] border pixel 1
 for_window [title="colorpicker"] border pixel 0
 for_window [title="colorpicker"] floating enable
 
 # color
-client.focused #555555 #555555 #ffffff #2e9ef4     #FFFF84
+client.focused           #555555 #555555 #FFFFFF #2E9EF4 #FFFF84
+client.focused_tab_title #000000 #000000 #FAFAFA #000000 #000000
 
 # gaps
 smart_gaps on
